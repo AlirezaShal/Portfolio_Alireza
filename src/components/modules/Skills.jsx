@@ -26,12 +26,22 @@ const MySkills = [
       {
         label: (
           <>
+            <span className="text-black font-bold">Simulation:</span> MATLAB –
+            Simulink
+          </>
+        ),
+        icon: FaLaptopCode,
+        rating: 4,
+      },
+      {
+        label: (
+          <>
             <span className="text-black font-bold">Circuit Verification:</span>{" "}
             LTspice, PSPICE, EWB Multisim, Proteus, etc.
           </>
         ),
         icon: FaCogs,
-        rating: 4,
+        rating: 5,
       },
       {
         label: (
@@ -55,51 +65,68 @@ const MySkills = [
         ),
         rating: 5,
       },
-    ],
-  },
-  {
-    category: "Simulation & Programming",
-    skills: [
-      { label: "MATLAB – Simulink", icon: FaLaptopCode },
-      { label: "C Programming", icon: SiC },
-      { label: "C++ Programming", icon: SiCplusplus },
-      { label: "Assembly", icon: FaLaptopCode },
-      { label: "Digital & Analog Design Tools" },
-    ],
-  },
-  {
-    category: "Data Communication",
-    skills: [
       {
-        label:
-          "Protocols: CAN, LIN, Optical RX-TX, SPI, UART, Wireless, Power Line Communication",
+        label: (
+          <>
+            <span className="text-black font-bold">
+              Data Communication Protocol:
+            </span>{" "}
+            CAN, LIN, Optical RX-TX, SPI, UART, Wireless, Power Line
+            Communication
+          </>
+        ),
+        rating: 4,
       },
-    ],
-  },
-  {
-    category: "Instruments & Devices",
-    skills: [
-      { label: "Measurement & Analysis Instruments" },
       {
-        label:
-          "Programmable Devices: ATMEGA, dSPACE, Programmable Power Supplies, Battery Simulator",
+        label: (
+          <>
+            <span className="text-black font-bold">Instruments:</span> Different
+            Measurement & Analysis Instruments
+          </>
+        ),
+        rating: 4,
+      },
+      {
+        label: (
+          <>
+            <span className="text-black font-bold">Programmable Devices:</span>{" "}
+            ATMEGA, dSPACE, Programmable Power Supplies and electronic load,
+            Battery Simulator, etc.
+          </>
+        ),
+        rating: 4,
+      },
+      {
+        label: (
+          <>
+            <span className="text-black font-bold">Multidisciplinary:</span>{" "}
+            <span className="text-black font-bold">
+              Electronic + Power Electronic + Communication + Semiconductor
+              Devices
+            </span>
+          </>
+        ),
+        rating: 4,
       },
     ],
   },
   {
     category: "Software",
     skills: [
-      { label: "Windows", icon: FaWindows },
-      { label: "MS Office", icon: FaLaptopCode },
-      { label: "Digital Working Environments" },
+      { label: "Windows", icon: FaWindows, rating: 4 },
+      { label: "MS Office", icon: FaLaptopCode, rating: 4 },
+      { label: "Digital Working Environments", rating: 5 },
+      { label: "C Programming", icon: SiC, rating: 3 },
+      { label: "C++ Programming", icon: SiCplusplus, rating: 2 },
+      { label: "Assembly", icon: FaLaptopCode, rating: 2 },
     ],
   },
   {
     category: "Languages",
     skills: [
-      { label: "English", rating: 4 },
-      { label: "Persian", rating: 4 },
-      { label: "German", rating: 4 },
+      { label: "English", rating: 5 },
+      { label: "Persian", rating: 5 },
+      { label: "German", rating: 3 },
     ],
   },
   {
@@ -133,7 +160,9 @@ function Skills() {
                 }}
               >
                 {Icon && <Icon className="w-6 h-6 text-purple-600 mb-1" />}
-                <span className="text-sm text-neutral-700 font-medium">{label}</span>
+                <span className="text-sm text-neutral-700 font-medium">
+                  {label}
+                </span>
                 {rating && (
                   <div className="flex mt-1">
                     {Array.from({ length: 5 }).map((_, i) => (
