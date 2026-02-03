@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdPhone } from "react-icons/md";
+
 import profile from "../../assets/projects/mypic.jpg";
 
 const container = (delay) => ({
@@ -85,6 +86,14 @@ function Introduction() {
           >
             alirezaahadpoor@yahoo.com
           </a>
+        </p>
+        <p className="flex items-center gap-2 text-neutral-700 hover:text-purple-700">
+          <MdPhone className="h-6 w-6 text-purple-700" />
+          <a href="tel:+4915753440502">+49 15753440502</a>
+        </p>
+        <p className="flex items-center gap-2 text-neutral-700 hover:text-purple-700">
+          <MdPhone className="h-6 w-6 text-purple-700" />
+          <a href="tel:+4915906634676">+49 15906634676</a>
         </p>
       </motion.div>
     </div>

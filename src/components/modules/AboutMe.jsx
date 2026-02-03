@@ -19,7 +19,7 @@ function AboutMe() {
           <p className="lg:text-xl text-m mx-auto leading-8 text-neutral-600 text-justify ">
             Senior HW developer with nearly 20 years of experience in{" "}
             <span className="font-bold">electronic circuit </span> and{" "}
-            <span className="font-bold">PCBA design </span> , from concept to
+            <span className="font-bold"> PCBA design </span> , from concept to
             mass production. Expert in requirement analysis, architecture, HW-SW
             interfaces, safety analysis,{" "}
             <span className="font-bold">FMEA/FMEDA</span>, and component
