@@ -31,18 +31,20 @@ function Education() {
             <h3 className="text-lg font-semibold text-gray-900">
               M.Sc. Electrical and Communications Engineering
             </h3>
-            <p className="mt-2 text-gray-500 dark:text-gray-400 text-base font-normal">
-              Thesis: Design, Simulation and Implementation of a Smart DC
-              Microgrid
-              <span className="text-purple-700">Study Focus:</span>
+            <p className="mt-2 text-gray-900 text-base font-normal">
+              <span className="font-bold text-purple-700">Thesis:</span> Design,
+              Simulation and Implementation of a Smart DC Microgrid
+            </p>
+            <p className="mt-2 text-gray-900 text-base font-normal">
+              <span className="font-bold text-purple-700">Study Focus:</span>{" "}
               Communications systems and power electronics
             </p>
-            <p>
+            <p className="mt-2 text-gray-900 text-base font-normal">
               Erasmus-Fonds für Forschungspraktikum an der Aalborg Universität,
               Dänemark 2016
             </p>
-            <p>GPA :1.7</p>
-            <p>
+            <p className="mt-2 text-gray-900 text-m font-bold">GPA : 1.7</p>
+            <p className="mt-2 text-gray-900 text-base font-normal">
               Ausgezeichnet mit dem Bildungsfonds-Stipendium der RWTH-Aachen
             </p>
           </motion.li>
@@ -64,18 +66,14 @@ function Education() {
             <h3 className="text-lg font-semibold text-gray-900">
               M.Sc. Electronics Engineering
             </h3>{" "}
-            <p>GPA: 1.8</p>
-            <p className="mt-2 text-gray-500 dark:text-gray-400 text-base font-normal">
-              Thesis:{" "}
-              <span className="text-purple-700">
-                Modeling of poly Si TFT Applicable in AMLCDs
-              </span>
+            <p className="mt-2 text-gray-900 text-m font-bold">GPA : 1.8</p>
+            <p className="mt-2 text-gray-900 text-base font-normal">
+              <span className="font-bold text-purple-700">Thesis: </span>
+              Modeling of poly Si TFT Applicable in AMLCDs
             </p>
             <p>
-              Study Focus:{" "}
-              <span className="text-purple-700">
-                Semiconductor device and circuit technology
-              </span>
+              <span className="font-bold text-purple-700">Study Focus: </span>
+              Semiconductor device and circuit technology
             </p>
           </motion.li>
 
@@ -96,18 +94,14 @@ function Education() {
             <h3 className="text-lg font-semibold text-gray-900">
               B.Sc. Electrical and Electronic Engineering
             </h3>
-            <p>GPA: 2.1</p>
-            <p className="mt-2 mb-2 text-gray-500 text-base font-normal">
-              Thesis:{" "}
-              <span className="text-purple-700">
-                Design and Fabrication of Numerical Text Reader
-              </span>
+            <p className="mt-2 text-gray-900 text-m font-bold">GPA : 2.1</p>
+            <p className="mt-2 mb-2 text-gray-900 text-base font-normal">
+              <span className="font-bold text-purple-700">Thesis: </span>
+              Design and Fabrication of Numerical Text Reader
             </p>
             <p>
-              Study Focus:{" "}
-              <span className="text-purple-700">
-                Analog and digital electronic circuits and systems
-              </span>
+              <span className="font-bold text-purple-700">Study Focus: </span>
+              Analog and digital electronic circuits and systems
             </p>
           </motion.li>
         </motion.ol>

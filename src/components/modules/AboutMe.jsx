@@ -18,10 +18,10 @@ function AboutMe() {
           </h4>
           <p className="lg:text-xl text-m mx-auto leading-8 text-neutral-600 text-justify ">
             Senior HW developer with nearly 20 years of experience in{" "}
-            <span className="font-bold">electronic circuit </span> and
-            <span className="font-bold">PCBA design</span> , from concept to
+            <span className="font-bold">electronic circuit </span> and{" "}
+            <span className="font-bold">PCBA design </span> , from concept to
             mass production. Expert in requirement analysis, architecture, HW-SW
-            interfaces, safety analysis,
+            interfaces, safety analysis,{" "}
             <span className="font-bold">FMEA/FMEDA</span>, and component
             optimization. Experienced in{" "}
             <span className="font-bold">Agile</span> and{" "}
@@ -33,11 +33,7 @@ function AboutMe() {
             high-performing, professional teams.
           </p>
           <p className="mb-4 lg:text-xl text-m leading-8 text-neutral-600 text-justify">
-            These days, I spend most of my time sharpening my skills with
-            JavaScript, React, and TypeScript. I've also been exploring backend
-            tools like GraphQL and MongoDB, and building full-stack projects
-            with Next.js. This portfolio is part of my journey to challenge
-            myself, explore new tools, and build with curiosity.
+            ...........................
           </p>
         </motion.div>
       </div>
