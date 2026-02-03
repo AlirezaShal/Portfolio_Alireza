@@ -18,7 +18,7 @@ function Header() {
 
         {/* Desktop Menu */}
         <span className="hidden md:flex items-center gap-8">
-          <ul className="flex gap-8">
+          <ul className="flex gap-6">
             <li className="text-lg font-bold hover:text-purple-600">
               <a href="#home">Home</a>
             </li>
