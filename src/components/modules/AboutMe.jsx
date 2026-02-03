@@ -33,7 +33,7 @@ function AboutMe() {
             high-performing, professional teams.
           </p>
           <p className="mb-4 lg:text-xl text-m leading-8 text-neutral-600 text-justify">
-            ...........................
+            ............................................................
           </p>
         </motion.div>
       </div>
